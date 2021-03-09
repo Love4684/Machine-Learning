@@ -6,3 +6,4 @@ Machine learning (ML) is the study of computer algorithms that improve automatic
 
 ![giphy](https://user-images.githubusercontent.com/42657629/95204809-365db600-0802-11eb-805f-b3f7cb6c08fe.gif)
 
+[Flask](https://towardsdatascience.com/deploy-a-machine-learning-model-using-flask-da580f84e60c)
