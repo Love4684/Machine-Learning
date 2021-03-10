@@ -193,3 +193,66 @@ Pull requests are welcome. Enjoy!
    `column3` `datatype`, <br />
    `column4` `datatype`, <br />
    `);`
+   
+   
+   
+   
+# Learning Relational Database Design and SQL
+
+## Learn SQL (interactive)
++ [SQLBolt](https://sqlbolt.com/)
++ [SQLZoo](http://sqlzoo.net/)
++ [GalaXQL](http://sol.gfxile.net/galaxql.html)
++ [Mode SQL Tutorial](https://community.modeanalytics.com/sql/)
++ [Datacamp: Intro to SQL for Data Science](https://www.datacamp.com/courses/intro-to-sql-for-data-science)
++ [Codecademy Learn SQL](https://www.codecademy.com/learn/learn-sql)
++ [Select Star SQL](https://selectstarsql.com/)
++ [SQL Murder Mystery Walkthrough for SQL Beginners](http://mystery.knightlab.com/walkthrough.html)
++ [SQL Murder Mystery](http://mystery.knightlab.com/)
++ [SQLCourse](http://www.sqlcourse.com/)
++ [SQLCourse2](http://www.sqlcourse2.com/)
++ [SQLRU](http://www.sql-tutorial.ru/)
+
+## Learn SQL (with exercises)
++ [PostgreSQL Exercises](https://pgexercises.com)
++ [Study by Yourself SQL Course](http://www.studybyyourself.com/seminar/sql/course/?lang=eng)
++ [Kaggle: Intro to SQL](https://www.kaggle.com/learn/intro-to-sql)
++ [Kaggle: Advanced SQL](https://www.kaggle.com/learn/advanced-sql)
++ [Strata Scratch](https://www.stratascratch.com/) - Interview Questions
++ [Sololearn SQL Course](https://www.sololearn.com/Course/SQL/)
+
+## Learn SQL (text form)
++ [Use the Index Luke](https://use-the-index-luke.com/)
++ [An Intermediate MySQL Tutorial](http://www.ntu.edu.sg/home/ehchua/programming/sql/MySQL_Intermediate.html)
+
+## Learn SQL (video)
++ [SQL Server playlist by kudvenkat](https://www.youtube.com/playlist?list=PL08903FB7ACA1C2FB)
++ [SQL Server Queries playlist by wiseowl](https://www.youtube.com/playlist?list=PL6EDEB03D20332309)
++ [SQL Server Programming and Procedures playlist by wiseowl](https://www.youtube.com/playlist?list=PLNIs-AWhQzcleQWADpUgriRxebMkMmi4H)
+
+## Learn SQL (book)
++ [SQL Cookbook](https://www.bookfinder.com/search/?author=&title=&lang=en&isbn=978-0596009762&new_used=*&destination=us&currency=USD&mode=basic&st=sr&ac=qr)
++ [Sams Teach Yourself Microsoft SQL Server T-SQL in 10 Minutes](https://www.bookfinder.com/search/?author=&title=&lang=en&isbn=978-0672337925&new_used=*&destination=us&currency=USD&mode=basic&st=sr&ac=qr)
+
+*Note that the book links go to bookfinder.com, a book price comparison website. These links are not affiliate links.*
+
+## Learn SQL (paid)
++ [Datacamp: Joining Data in PostgreSQL](https://www.datacamp.com/courses/joining-data-in-postgresql)
++ [Mastery with SQL](https://www.masterywithsql.com/)
+
+## Learn Database Design
++ [Relational Model](https://en.wikipedia.org/wiki/Relational_model)
++ [A quick start on database design](http://www.ntu.edu.sg/home/ehchua/programming/sql/Relational_Database_Design.html)
++ [Normalization](http://www.troubleshooters.com/littstip/ltnorm.html)
++ [An Introduction to Database Normalization](http://mikehillyer.com/articles/an-introduction-to-database-normalization/)
++ [3 Normal Forms Database Tutorial](http://phlonx.com/resources/nf3/)
++ [Description of Database Normalization Basics](https://support.microsoft.com/en-us/help/283878/description-of-the-database-normalization-basics)
++ [Database Normalization and Techniques](http://www.barrywise.com/2008/01/database-normalization-and-design-techniques/)
++ [Creating a Quick MySQL Database](http://www.anchor.com.au/hosting/support/CreatingAQuickMySQLRelationalDatabase)
++ [Relational Database Design](https://en.wikibooks.org/wiki/Relational_Database_Design)
+
+## Tools
++ [SQLfiddle](http://www.sqlfiddle.com/) - Online Database Environment
++ [DBfiddle](https://www.db-fiddle.com/) - Another Online Database service
++ [mycli](https://www.mycli.net/) - Command line interface for MySQL, MariaDB, Percona
++ [poorsql](http://poorsql.com/) - SQL Formatter
