@@ -221,7 +221,7 @@ WHERE c.CustomerName="Around the Horn" AND c.CustomerID=o.CustomerID;
 
 ## SQL Advanced
 ### SQL Joins
-SQL joins are used to combine rows from two or more tables, based on a common field between them:
+SQL joins are used to combine rows from two or more tables, based on a related column between them.
 
 * INNER JOIN: Returns all rows when there is at least one match in BOTH tables
 * LEFT JOIN: Return all rows from the left table, and the matched rows from the right table
