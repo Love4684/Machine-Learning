@@ -56,10 +56,9 @@ Array in C++
 SQL Basic
 ===============================================================================
 
-.. _SQL: http://www.w3schools.com/sql/default.asp stands for Structured Query Language<br>
-RDBMS stands for Relational Database Management System: MySQL, PostgreSQL
-
-Tables contain records (rows) with data. **One row is one record.**
+*  `SQL 2.7 <http://www.w3schools.com/sql/default.asp>`_ stands for Structured Query Language
+* RDBMS stands for Relational Database Management System: MySQL, PostgreSQL
+* Tables contain records (rows) with data. **One row is one record.**
 
 .. code:: sql
 
