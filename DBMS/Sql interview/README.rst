@@ -7,7 +7,7 @@
 SQL query to find second highest salary?
 ===============================================================================
 
-.. code:: c++
+.. code:: SQL
 
     select FirstName, max(Salary) from employees
     where Salary not in (select max(Salary) from employees)
