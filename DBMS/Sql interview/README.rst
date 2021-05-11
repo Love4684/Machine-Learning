@@ -26,3 +26,10 @@ SQL Query to Find the Highest Salary of Each Department
 .. code:: SQL
 
       SELECT DEPT_ID, MAX(SALARY) FROM department GROUP BY DEPT_ID;
+
+How to get the alternate rows or records from table in sql server
+===============================================================================
+
+.. code:: SQL
+
+      select ID, NAME from department where mod(ID, 2) = 0;
