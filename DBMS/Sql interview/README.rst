@@ -11,3 +11,8 @@ SQL query to find second highest salary?
 
     select FirstName, max(Salary) from employees
     where Salary not in (select max(Salary) from employees)
+    
+    or
+    
+    select FirstName, max(Salary) from employees 
+    where Salary < (select max(Salary) from employees)
