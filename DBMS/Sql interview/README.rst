@@ -16,3 +16,10 @@ SQL query to find second highest salary?
     
     select FirstName, max(Salary) from employees 
     where Salary < (select max(Salary) from employees)
+
+
+SQL Query to Find the Highest Salary of Each Department
+===============================================================================
+.. code:: SQL
+
+      SELECT DEPT_ID, MAX(SALARY) FROM department GROUP BY DEPT_ID;
