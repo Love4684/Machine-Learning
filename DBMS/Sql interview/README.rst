@@ -20,6 +20,9 @@ SQL query to find second highest salary?
 
 SQL Query to Find the Highest Salary of Each Department
 ===============================================================================
+
+`Geeks <https://www.geeksforgeeks.org/sql-query-to-find-the-highest-salary-of-each-department/>`_
+
 .. code:: SQL
 
       SELECT DEPT_ID, MAX(SALARY) FROM department GROUP BY DEPT_ID;
