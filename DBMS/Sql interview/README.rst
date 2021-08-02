@@ -22,7 +22,10 @@ SQL query to find Nth highest salary?
 
 .. code:: SQL
 
-SELECT name, salary FROM #Employee e1 WHERE N-1 = (SELECT COUNT(DISTINCT salary) FROM #Employee e2 WHERE e2.salary > e1.salary)
+      SELECT name, salary 
+      FROM #Employee e1 
+      WHERE N-1 = (SELECT COUNT(DISTINCT salary) FROM #Employee e2 
+      WHERE e2.salary > e1.salary)
 
 
 SQL Query to Find the Highest Salary of Each Department
