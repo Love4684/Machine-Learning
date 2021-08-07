@@ -4,6 +4,20 @@
    :depth: 3
 
 
+CREATE TABLE - Count the Number of Rows
+===============================================================================
+
+.. code:: SQL
+
+      CREATE TABLE geeks(
+          id int(20) , 
+          name varchar(200));
+
+      INSERT INTO geeks(id,name) values(1,'nikhil');
+      INSERT INTO geeks(id,name) values(2,'kartik');
+
+      SELECT COUNT(id) as id_count FROM geeks
+
 SQL query to find second highest salary?
 ===============================================================================
 
