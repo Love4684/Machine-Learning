@@ -3,6 +3,17 @@
    :local:
    :depth: 3
 
+B-Tree
+===============================================================================
+
+Following is an example of B-Tree of minimum order 5.
+
+.. image:: https://github.com/Love4684/Machine-Learning/blob/master/DBMS/media/output253.png
+
+ 
+The B+ tree is a balanced binary search tree. It follows a multi-level index format
+
+
 
 CREATE TABLE - Count the Number of Rows
 ===============================================================================
