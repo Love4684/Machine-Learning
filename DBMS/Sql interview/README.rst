@@ -24,7 +24,7 @@ Consistency : The integrity constraints are maintained so that the database is c
 
 Isolation : It shows that the data which is used at the time of execution of a transaction cannot be used by the second transaction until the first one is completed.
 
-Durability The durability property is used to indicate the performance of the database's consistent state. It states that the transaction made the permanent changes.
+Durability : The durability property is used to indicate the performance of the database's consistent state. It states that the transaction made the permanent changes.
 
 Normalization
 ===============================================================================
