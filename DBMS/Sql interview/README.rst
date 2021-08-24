@@ -13,6 +13,34 @@ Following is an example of B-Tree of minimum order 5.
  
 The B+ tree is a balanced binary search tree. It follows a multi-level index format
 
+Transaction property
+===============================================================================
+
+The transaction has the four properties. These are used to maintain consistency in a database, before and after the transaction.
+
+Atomicity : It states that all operations of the transaction take place at once if not, the transaction is aborted.
+
+Consistency : The integrity constraints are maintained so that the database is consistent before and after the transaction.
+
+Isolation : It shows that the data which is used at the time of execution of a transaction cannot be used by the second transaction until the first one is completed.
+
+Durability The durability property is used to indicate the performance of the database's consistent state. It states that the transaction made the permanent changes.
+
+Normalization
+===============================================================================
+
+Normalization is the process of minimizing redundancy from a relation or set of relations.
+Redundancy in relation may cause insertion, deletion and updation anomalies. So, it helps to minimize the redundancy in relations.
+
+.. code:: SQL
+
+
+      1NF	A relation is in 1NF if it contains an atomic value.
+      2NF	A relation will be in 2NF if it is in 1NF and all non-key attributes are fully functional dependent on the primary key.
+      3NF	A relation will be in 3NF if it is in 2NF and no transition dependency exists.
+      4NF	A relation will be in 4NF if it is in Boyce Codd normal form and has no multi-valued dependency.
+      5NF	A relation is in 5NF if it is in 4NF and not contains any join dependency and joining should be lossless.
+
 
 
 CREATE TABLE - Count the Number of Rows
