@@ -54,6 +54,38 @@ Redundancy in relation may cause insertion, deletion and updation anomalies. So,
       5NF	A relation is in 5NF if it is in 4NF and not contains any join dependency and joining should be lossless.
 
 
+DELETE
+===============================================================================
+
+The DELETE statement is used to delete existing records in a table.
+
+.. code:: SQL
+
+   DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste'; 
+   
+GROUP BY
+===============================================================================
+
+The GROUP BY statement groups rows that have the same values into summary rows, like "find the number of customers in each country".
+
+.. code:: SQL
+
+      SELECT COUNT(CustomerID), Country
+      FROM Customers
+      GROUP BY Country;
+      
+HAVING
+===============================================================================      
+
+The HAVING clause was added to SQL because the WHERE keyword cannot be used with aggregate functions.
+
+.. code:: SQL
+
+      SELECT COUNT(CustomerID), Country
+      FROM Customers
+      GROUP BY Country
+      HAVING COUNT(CustomerID) > 5;
+   
 
 CREATE TABLE - Count the Number of Rows
 ===============================================================================
