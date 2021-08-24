@@ -3,6 +3,18 @@
    :local:
    :depth: 3
 
+Key
+===============================================================================
+
+Primary key: The Primary key is an attribute in a table that can uniquely identify each record in a table. It is compulsory for every table.
+
+Candidate key: The Candidate key is an attribute or set of an attribute which can uniquely identify a tuple. The Primary key can be selected from these attributes.
+
+Super key: The Super key is a set of attributes which can uniquely identify a tuple. Super key is a superset of the candidate key.
+
+Foreign key: The Foreign key is a primary key from one table, which has a relationship with another table. It acts as a cross-reference between tables.
+
+
 B-Tree
 ===============================================================================
 
