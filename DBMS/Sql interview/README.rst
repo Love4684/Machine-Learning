@@ -3,6 +3,26 @@
    :local:
    :depth: 3
 
+Indexing
+===============================================================================
+
+Indexes allow the database application to find data fast; without reading the whole table
+
+DELETE command and TRUNCATE command
+===============================================================================
+
+DELETE command: DELETE command is used to delete rows from a table based on the condition that we provide in a WHERE clause.
+
+TRUNCATE command: TRUNCATE command is used to remove all rows (complete data) from a table. It is similar to the DELETE command with no WHERE clause.
+
+database languages
+===============================================================================
+
+Data Definition Language (DDL) e.g., CREATE, ALTER, DROP, TRUNCATE, RENAME, etc. All these commands are used for updating the data that?s why they are known as Data Definition Language.
+Data Manipulation Language (DML) e.g., SELECT, UPDATE, INSERT, DELETE, etc. These commands are used for the manipulation of already updated data that's why they are the part of Data Manipulation Language.
+DATA Control Language (DCL) e.g., GRANT and REVOKE. These commands are used for giving and removing the user access on the database. So, they are the part of Data Control Language.
+Transaction Control Language (TCL) e.g., COMMIT, ROLLBACK, and SAVEPOINT. These are the commands used for managing transactions in the database. TCL is used for managing the changes made by DML.
+
 Key
 ===============================================================================
 
@@ -25,7 +45,7 @@ Following is an example of B-Tree of minimum order 5.
  
 The B+ tree is a balanced binary search tree. It follows a multi-level index format
 
-Transaction property
+Transaction property(ACID properties)
 ===============================================================================
 
 The transaction has the four properties. These are used to maintain consistency in a database, before and after the transaction.
