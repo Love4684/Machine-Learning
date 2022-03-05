@@ -163,3 +163,14 @@ How to get the alternate rows or records from table in sql server
 .. code:: SQL
 
       select ID, NAME from department where mod(ID, 2) = 0;
+      
+      
+Find Duplicate Values in a SQL 
+===============================================================================
+
+.. code:: SQL
+
+      SELECT username, email, COUNT(*)
+      FROM users
+      GROUP BY username, email
+      HAVING COUNT(*) > 1
